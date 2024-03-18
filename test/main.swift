@@ -1,11 +1,6 @@
-//
-//  main.swift
-//  test
-//
-//  Created by 박인호 on 3/18/24.
-//
-
 import Foundation
 
-print("Hello, World!")
+let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+let (a, b) = (n[0], n[1])
 
+print(Double(a) / Double(b))
