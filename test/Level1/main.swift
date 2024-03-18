@@ -20,8 +20,15 @@
 
 // MARK: - [ 10926 ] ??!
 
+//import Foundation
+//
+//let id = readLine()!
+//print("\(id)??!")
+
+// MARK: - [ 18108 ] 1998년생인 내가 태국에서는 2541년생?!
+
 import Foundation
 
-let id = readLine()!
-print("\(id)??!")
-
+let n = readLine()!
+let yearOfBuddhist = Int(n)
+print(yearOfBuddhist! - 543)
