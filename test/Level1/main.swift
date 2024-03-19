@@ -27,8 +27,20 @@
 
 // MARK: - [ 18108 ] 1998년생인 내가 태국에서는 2541년생?!
 
+//import Foundation
+//
+//let n = readLine()!
+//let yearOfBuddhist = Int(n)
+//print(yearOfBuddhist! - 543)
+
+// MARK: - [ 10430 ] 나머지
+
 import Foundation
 
-let n = readLine()!
-let yearOfBuddhist = Int(n)
-print(yearOfBuddhist! - 543)
+let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+let (a, b, c) = (n[0], n[1], n[2])
+
+print((a+b)%c)
+print(((a%c)+(b%c))%c)
+print((a*b)%c)
+print(((a%c)*(b%c))%c)
