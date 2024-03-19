@@ -62,10 +62,22 @@
 
 // MARK: - [ 11382 ] 꼬마 정민
 
-import Foundation
+//import Foundation
+//
+//let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+//let (a, b, c) = (n[0], n[1], n[2])
+//
+//print(a + b + c)
 
-let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
-let (a, b, c) = (n[0], n[1], n[2])
+// MARK: - [ 10171 ] 고양이
 
-print(a + b + c)
+let cat = #"""
+\    /\
+ )  ( ')
+(  /  )
+ \(__)|
+"""#
 
+print(cat)
+
+      
