@@ -47,16 +47,25 @@
 
 // MARK: - [ 2588 ] 곱셈
 
-let input1 = Int(readLine()!)!
-let input2 = Int(readLine()!)!
+//let input1 = Int(readLine()!)!
+//let input2 = Int(readLine()!)!
+//
+//var a: Int = (input1 * (input2 % 10))
+//var b: Int = (input1 * ((input2 % 100) / 10))
+//var c: Int = (input1 * (input2 / 100))
+//var d: Int = (input1 * input2)
+//
+//print(a)
+//print(b)
+//print(c)
+//print(d)
 
-var a: Int = (input1 * (input2 % 10))
-var b: Int = (input1 * ((input2 % 100) / 10))
-var c: Int = (input1 * (input2 / 100))
-var d: Int = (input1 * input2)
+// MARK: - [ 11382 ] 꼬마 정민
 
-print(a)
-print(b)
-print(c)
-print(d)
+import Foundation
+
+let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+let (a, b, c) = (n[0], n[1], n[2])
+
+print(a + b + c)
 
